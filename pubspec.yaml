@@ -1,0 +1,57 @@
+name: stockar
+description: "StockAR - control de existencias de un almacen. Proyecto del modulo Desarrollo de interfaces (2DAM)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Para traducir los textos del PRAGMA de idiomas (es/en)
+  intl: ^0.20.3
+
+  # Para el patron MVC: los "controladores" avisan a las pantallas cuando
+  # cambian los datos (ChangeNotifier + provider)
+  provider: ^6.1.2
+
+  # Base de datos SQLite
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.3
+  # Hace que sqflite funcione tambien dentro del navegador (simula SQLite
+  # con WebAssembly y lo guarda en el almacenamiento del navegador).
+  sqflite_common_ffi_web: ^1.1.1
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # Interfaz natural: voz
+  speech_to_text: ^7.5.0
+  flutter_tts: ^4.0.2
+
+  # Interfaz natural: movimiento del cuerpo (agitar el movil)
+  sensors_plus: ^7.1.1
+
+  # Interfaz natural: deteccion de cara
+  google_mlkit_face_detection: ^0.15.1
+  google_mlkit_commons: ^0.13.0
+  camera: ^0.12.1
+
+  # Permisos de camara y microfono
+  permission_handler: ^13.0.2
+
+  # Nuestro propio paquete de componentes (RA3)
+  componentes_stockar:
+    path: packages/componentes_stockar
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
