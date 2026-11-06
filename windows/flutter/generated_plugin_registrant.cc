@@ -6,6 +6,7 @@
 
 #include "generated_plugin_registrant.h"
 
+<<<<<<< HEAD
 #include <flutter_tts/flutter_tts_plugin.h>
 #include <permission_handler_windows/permission_handler_windows_plugin.h>
 #include <speech_to_text_windows/speech_to_text_windows.h>
@@ -17,4 +18,8 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
       registry->GetRegistrarForPlugin("PermissionHandlerWindowsPlugin"));
   SpeechToTextWindowsRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("SpeechToTextWindows"));
+=======
+
+void RegisterPlugins(flutter::PluginRegistry* registry) {
+>>>>>>> 54e7449a60bff342984682161a48f5b30cac1d03
 }
