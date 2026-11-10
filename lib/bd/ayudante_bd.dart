@@ -159,4 +159,12 @@ class AyudanteBD {
       'fecha': ahora.toIso8601String(),
     });
   }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519

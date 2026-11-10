@@ -5,6 +5,13 @@ import 'package:permission_handler/permission_handler.dart';
 // Esta pantalla NO es una de las 10 pantallas principales del proyecto:
 // es una ventana extra a la que se llega desde la ficha de producto.
 //
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+//
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
 // Mostramos la camara en vivo con el nombre del producto y el stock
 // superpuestos, como si fuera una etiqueta flotando sobre la estanteria.
 // Lo hacemos con camara + texto superpuesto (y no con ar_flutter_plugin)

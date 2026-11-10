@@ -6,7 +6,18 @@ list(APPEND FLUTTER_PLUGIN_LIST
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
+<<<<<<< HEAD
   jni
+=======
+<<<<<<< HEAD
+  jni
+=======
+<<<<<<< HEAD
+  jni
+=======
+>>>>>>> 54e7449a60bff342984682161a48f5b30cac1d03
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)

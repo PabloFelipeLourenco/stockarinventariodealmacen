@@ -45,11 +45,25 @@ static void my_application_activate(GApplication* application) {
   if (use_header_bar) {
     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
     gtk_widget_show(GTK_WIDGET(header_bar));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
     gtk_header_bar_set_title(header_bar, "stockar");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
   } else {
     gtk_window_set_title(window, "stockar");
+<<<<<<< HEAD
+=======
+=======
+    gtk_header_bar_set_title(header_bar, "stockarinventariodealmacen");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "stockarinventariodealmacen");
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
   }
 
   gtk_window_set_default_size(window, 1280, 720);

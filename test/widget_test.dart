@@ -8,7 +8,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:stockar/main.dart';
+=======
+<<<<<<< HEAD
+import 'package:stockar/main.dart';
+=======
+import 'package:stockarinventariodealmacen/main.dart';
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

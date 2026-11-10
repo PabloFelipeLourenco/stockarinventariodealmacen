@@ -1,10 +1,24 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
 project(stockar LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "stockar")
+<<<<<<< HEAD
+=======
+=======
+project(stockarinventariodealmacen LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "stockarinventariodealmacen")
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

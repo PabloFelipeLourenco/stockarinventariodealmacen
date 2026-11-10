@@ -1,6 +1,16 @@
 {
+<<<<<<< HEAD
     "name": "stockar",
     "short_name": "stockar",
+=======
+<<<<<<< HEAD
+    "name": "stockar",
+    "short_name": "stockar",
+=======
+    "name": "stockarinventariodealmacen",
+    "short_name": "stockarinventariodealmacen",
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
+>>>>>>> 05e58df6e3d75a564df21426f3a5a29c04c3f519
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
