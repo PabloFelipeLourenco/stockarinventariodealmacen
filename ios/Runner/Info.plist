@@ -2,18 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
 	<key>NSCameraUsageDescription</key>
 	<string>StockAR usa la cámara para la etiqueta de realidad aumentada y para comprobar que miras la pantalla.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>StockAR usa el micrófono para reconocer tus órdenes de voz.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>StockAR convierte tu voz en texto para registrar movimientos.</string>
+=======
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Stockar</string>
+=======
+	<string>Stockarinventariodealmacen</string>
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -21,7 +28,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>stockar</string>
+=======
+	<string>stockarinventariodealmacen</string>
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "stockar" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "stockar" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "stockar.exe" "\0"
             VALUE "ProductName", "stockar" "\0"
+=======
+            VALUE "FileDescription", "stockarinventariodealmacen" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "stockarinventariodealmacen" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "stockarinventariodealmacen.exe" "\0"
+            VALUE "ProductName", "stockarinventariodealmacen" "\0"
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,8 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <application
         android:label="stockar"
+=======
+    <application
+        android:label="stockarinventariodealmacen"
+>>>>>>> ebd57116e11e72da1fbd1c66dea9ea5086987cfc
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
