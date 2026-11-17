@@ -10,16 +10,6 @@ categorías, proveedores y movimientos de entrada/salida, con una base de datos 
 un registro de movimientos por voz, una alerta de stock bajo y una "etiqueta virtual"
 con la cámara a modo de realidad aumentada.
 
-## ⚠️ Importante: este zip solo trae el código fuente
-
-A propósito **no incluye** las carpetas `android/`, `ios/`, `windows/`, `linux/`,
-`macos/` ni `web/`: son carpetas que genera el propio Flutter y, si se llevan a Git y
-dos personas o dos ordenadores las generan por separado, es muy fácil que una fusión
-(`merge`) choque y deje el proyecto roto (esto es justo lo que te pasó: tu último
-`merge` dejó marcas de conflicto de Git sin resolver en más de una decena de esos
-ficheros generados, además de en `pubspec.lock` y `.gitignore`). Genera esas carpetas
-tú mismo, limpias, con los pasos de abajo.
-
 ## Estructura del proyecto
 
 ```
