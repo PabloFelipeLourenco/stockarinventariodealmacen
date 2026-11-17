@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "tituloApp": "StockAR",
+  "panel": "Dashboard",
+  "productos": "Products",
+  "categorias": "Categories",
+  "proveedores": "Suppliers",
+  "movimientos": "Movements",
+  "alertasStock": "Stock alerts",
+  "ajustes": "Settings",
+  "nuevoMovimientoVoz": "New voice movement",
+  "numeroDeProductos": "{cantidad, plural, =0{No products} =1{1 product} other{{cantidad} products}}",
+  "ultimaActualizacion": "Last update: {fecha}"
+}

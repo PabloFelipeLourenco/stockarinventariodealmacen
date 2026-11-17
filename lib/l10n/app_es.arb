@@ -1,0 +1,29 @@
+{
+  "@@locale": "es",
+  "tituloApp": "StockAR",
+  "panel": "Panel",
+  "productos": "Productos",
+  "categorias": "Categorias",
+  "proveedores": "Proveedores",
+  "movimientos": "Movimientos",
+  "alertasStock": "Alertas de stock",
+  "ajustes": "Ajustes",
+  "nuevoMovimientoVoz": "Nuevo movimiento por voz",
+  "numeroDeProductos": "{cantidad, plural, =0{No hay productos} =1{1 producto} other{{cantidad} productos}}",
+  "@numeroDeProductos": {
+    "placeholders": {
+      "cantidad": {
+        "type": "int"
+      }
+    }
+  },
+  "ultimaActualizacion": "Ultima actualizacion: {fecha}",
+  "@ultimaActualizacion": {
+    "placeholders": {
+      "fecha": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  }
+}

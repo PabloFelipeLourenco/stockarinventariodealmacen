@@ -1,0 +1,8 @@
+arb-dir: lib/l10n
+template-arb-file: app_es.arb
+output-localization-file: app_localizations.dart
+# Importante: en versiones recientes de Flutter el paquete "flutter_gen"
+# (sintetico) a veces no se resuelve bien, sobre todo en Windows. Por eso
+# generamos el fichero directamente dentro del propio proyecto (lib/l10n)
+# y lo importamos como package:stockar/l10n/app_localizations.dart.
+synthetic-package: false

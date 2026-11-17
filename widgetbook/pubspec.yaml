@@ -1,0 +1,21 @@
+name: widgetbook_stockar
+description: "Catalogo Widgetbook de los componentes de StockAR."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  widgetbook: ^3.9.0
+  componentes_stockar:
+    path: ../packages/componentes_stockar
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
