@@ -5,4 +5,3 @@ output-localization-file: app_localizations.dart
 # (sintetico) a veces no se resuelve bien, sobre todo en Windows. Por eso
 # generamos el fichero directamente dentro del propio proyecto (lib/l10n)
 # y lo importamos como package:stockar/l10n/app_localizations.dart.
-synthetic-package: false
